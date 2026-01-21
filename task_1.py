@@ -2,8 +2,6 @@ string_origin = '1h 45m,360s,25m,30m 120s,2h 60s'
 
 string_list = string_origin.replace(' ', ',').split(',')
 
-print(string_list)
-
 summ_minutes = 0
 
 for i in string_list:
